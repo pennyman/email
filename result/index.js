@@ -95,17 +95,6 @@ exports.handler = function(event, context, callback) {
       	}
       });
 
-      // connection.query('SELECT * FROM user_firebase_token', function (error, results, fields) {
-      //   if (error) {
-      //     console.error('[connection.query]error: ' + error);
-      //     return;
-      //   }
-      //
-      //   console.log('[connection.query]results', results);
-      //   console.log('[connection.query]fields', fields);
-      //   callback(null);
-      // });
-
       connection.end(function(err) {
         // The connection is terminated now
         if (err) {
