@@ -97,18 +97,6 @@ exports.handler = function(event, context, callback) {
           context.done(null, "Failed");
         });
 
-      // var email = ses.sendEmail(eParams, function(err, data){
-      //     if(err) console.log(err);
-      //     else {
-      //         console.log("===EMAIL SENT===");
-      //         console.log(data);
-      //         console.log("EMAIL CODE END");
-      //         console.log('EMAIL: ', email);
-      //
-      //         context.succeed(event);
-      //     }
-      // });
-
     }
 
   });
