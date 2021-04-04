@@ -105,7 +105,6 @@ exports.handler = function(event, context, callback) {
         console.log('connection ended');
       });
 
-      // deleteMessage(event.Records[0].receiptHandle, callback);
     }
   });
 };
